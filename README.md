@@ -6,8 +6,11 @@ The Wallet API contains two controllers.
 The first is the Authentication controller with endpoints for registration and sign in
 Note: Password length must be at least 8 characters and it must contain 
 -at least One upper case letter
+
 -at least One lower case letter
+
 -at least one special symbol(@,#,)
+
 -at least one digit
 
 On signing in, the User(Owner) receives a JWT(JSON Web Token) which it uses to be authorized to access the Wallet Controller
